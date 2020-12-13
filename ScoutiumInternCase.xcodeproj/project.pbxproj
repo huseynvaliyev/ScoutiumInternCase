@@ -73,9 +73,9 @@
 		28F859322586401A000819F7 /* ScoutiumInternCase */ = {
 			isa = PBXGroup;
 			children = (
-				28F8596825865199000819F7 /* Controller */,
+				28F85994258657AF000819F7 /* Model */,
 				28F859672586518B000819F7 /* ViewModel */,
-				28F8596625865177000819F7 /* Model */,
+				28F859922586577F000819F7 /* Controller */,
 				28F859332586401A000819F7 /* AppDelegate.swift */,
 				28F859352586401A000819F7 /* SceneDelegate.swift */,
 				28F8594925864334000819F7 /* NetworkMonitor.swift */,
@@ -88,15 +88,6 @@
 			path = ScoutiumInternCase;
 			sourceTree = "<group>";
 		};
-		28F8596625865177000819F7 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				28F85969258651CD000819F7 /* TableViewCell.swift */,
-				28F8596D25865267000819F7 /* DataModel.swift */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
 		28F859672586518B000819F7 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,12 +96,21 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		28F8596825865199000819F7 /* Controller */ = {
+		28F859922586577F000819F7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				28F8596125864A08000819F7 /* TableViewController.swift */,
 			);
-			name = Controller;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		28F85994258657AF000819F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28F85969258651CD000819F7 /* TableViewCell.swift */,
+				28F8596D25865267000819F7 /* DataModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		7257CAFD5110DF27E70873D1 /* Frameworks */ = {
