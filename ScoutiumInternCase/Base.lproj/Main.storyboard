@@ -56,7 +56,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="90" id="kvC-Vq-C2n" customClass="TableViewCell" customModule="ScoutiumInternCase" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="dataCell" rowHeight="90" id="kvC-Vq-C2n" customClass="TableViewCell" customModule="ScoutiumInternCase" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kvC-Vq-C2n" id="ayH-FD-fYj">
@@ -67,6 +67,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="160" height="90"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="Riy-aP-fer" secondAttribute="height" multiplier="16:9" id="a0X-PP-qhu"/>
+                                                        <constraint firstAttribute="width" constant="160" id="yxT-Q6-aRP"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqM-xU-T3v">
@@ -86,9 +87,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Riy-aP-fer" firstAttribute="centerY" secondItem="ayH-FD-fYj" secondAttribute="centerY" id="Lph-0K-Loy"/>
-                                                <constraint firstItem="Riy-aP-fer" firstAttribute="top" secondItem="ayH-FD-fYj" secondAttribute="top" id="Tv7-8z-OSP"/>
                                                 <constraint firstAttribute="trailing" secondItem="sqM-xU-T3v" secondAttribute="trailing" constant="12" id="jlh-Lh-wRo"/>
-                                                <constraint firstAttribute="bottom" secondItem="Riy-aP-fer" secondAttribute="bottom" id="lFT-iA-izL"/>
                                                 <constraint firstItem="sqM-xU-T3v" firstAttribute="leading" secondItem="Riy-aP-fer" secondAttribute="trailing" constant="12" id="lR7-V4-y08"/>
                                                 <constraint firstItem="Riy-aP-fer" firstAttribute="leading" secondItem="ayH-FD-fYj" secondAttribute="leading" id="y6b-5Y-MW0"/>
                                                 <constraint firstItem="sqM-xU-T3v" firstAttribute="centerY" secondItem="ayH-FD-fYj" secondAttribute="centerY" id="yTb-Cy-Sbr"/>

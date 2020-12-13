@@ -9,4 +9,5 @@ target 'ScoutiumInternCase' do
   pod 'Firebase/Core'
   pod 'Firebase/RemoteConfig'
   pod 'Alamofire'
+  pod 'SDWebImage'
 end
