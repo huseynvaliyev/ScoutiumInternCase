@@ -14,6 +14,7 @@
 		28F8593D2586401B000819F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F8593C2586401B000819F7 /* Assets.xcassets */; };
 		28F8594A25864334000819F7 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8594925864334000819F7 /* NetworkMonitor.swift */; };
 		28F8595B25864783000819F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28F8595A25864783000819F7 /* GoogleService-Info.plist */; };
+		28F8596225864A08000819F7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8596125864A08000819F7 /* TableViewController.swift */; };
 		990276220F6306C0136A016B /* Pods_ScoutiumInternCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2C5BB9C304C25DEC4BCDF0 /* Pods_ScoutiumInternCase.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		28F859412586401B000819F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F8594925864334000819F7 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		28F8595A25864783000819F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		28F8596125864A08000819F7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		475D5CBC479BCDF446EAC8A0 /* Pods-ScoutiumInternCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScoutiumInternCase.debug.xcconfig"; path = "Target Support Files/Pods-ScoutiumInternCase/Pods-ScoutiumInternCase.debug.xcconfig"; sourceTree = "<group>"; };
 		CB2C5BB9C304C25DEC4BCDF0 /* Pods_ScoutiumInternCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScoutiumInternCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5BCB4F0D553A710CB29E4F /* Pods-ScoutiumInternCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScoutiumInternCase.release.xcconfig"; path = "Target Support Files/Pods-ScoutiumInternCase/Pods-ScoutiumInternCase.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				28F859352586401A000819F7 /* SceneDelegate.swift */,
 				28F8594925864334000819F7 /* NetworkMonitor.swift */,
 				28F859372586401A000819F7 /* ViewController.swift */,
+				28F8596125864A08000819F7 /* TableViewController.swift */,
 				28F859392586401A000819F7 /* Main.storyboard */,
 				28F8593C2586401B000819F7 /* Assets.xcassets */,
 				28F859412586401B000819F7 /* Info.plist */,
@@ -211,6 +214,7 @@
 				28F859382586401A000819F7 /* ViewController.swift in Sources */,
 				28F8594A25864334000819F7 /* NetworkMonitor.swift in Sources */,
 				28F859342586401A000819F7 /* AppDelegate.swift in Sources */,
+				28F8596225864A08000819F7 /* TableViewController.swift in Sources */,
 				28F859362586401A000819F7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

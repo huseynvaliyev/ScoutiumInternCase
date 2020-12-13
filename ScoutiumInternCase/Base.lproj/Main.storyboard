@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Splash Screen-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ScoutiumInternCase" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Splash Screen" id="BYZ-38-t0r" customClass="ViewController" customModule="ScoutiumInternCase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -36,10 +36,40 @@
                             <constraint firstItem="wML-Xn-iO1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eBZ-Sm-hpT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="remoteText" destination="wML-Xn-iO1" id="xSw-ik-9Kv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-197" y="119"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="4mB-hC-5V0">
+            <objects>
+                <viewController storyboardIdentifier="table" id="bcD-zo-6gn" customClass="TableViewController" customModule="ScoutiumInternCase" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3wj-AT-5Hl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kMf-O0-xsx">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OPt-ZI-Xrn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kMf-O0-xsx" firstAttribute="leading" secondItem="OPt-ZI-Xrn" secondAttribute="leading" id="2nI-l8-quA"/>
+                            <constraint firstItem="OPt-ZI-Xrn" firstAttribute="bottom" secondItem="kMf-O0-xsx" secondAttribute="bottom" id="GSt-xr-Vcw"/>
+                            <constraint firstItem="OPt-ZI-Xrn" firstAttribute="trailing" secondItem="kMf-O0-xsx" secondAttribute="trailing" id="eKw-PJ-bTl"/>
+                            <constraint firstItem="kMf-O0-xsx" firstAttribute="top" secondItem="OPt-ZI-Xrn" secondAttribute="top" id="qS4-JO-Iqe"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q5V-fc-OuB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="507" y="119"/>
         </scene>
     </scenes>
     <resources>
