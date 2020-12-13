@@ -8,4 +8,5 @@ target 'ScoutiumInternCase' do
   # Pods for ScoutiumInternCase
   pod 'Firebase/Core'
   pod 'Firebase/RemoteConfig'
+  pod 'Alamofire'
 end

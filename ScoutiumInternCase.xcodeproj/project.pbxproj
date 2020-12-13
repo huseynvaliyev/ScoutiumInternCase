@@ -17,6 +17,7 @@
 		28F8596225864A08000819F7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8596125864A08000819F7 /* TableViewController.swift */; };
 		28F8596A258651CD000819F7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F85969258651CD000819F7 /* TableViewCell.swift */; };
 		28F8596E25865267000819F7 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8596D25865267000819F7 /* DataModel.swift */; };
+		28F859802586547E000819F7 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8597F2586547E000819F7 /* DataParser.swift */; };
 		990276220F6306C0136A016B /* Pods_ScoutiumInternCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2C5BB9C304C25DEC4BCDF0 /* Pods_ScoutiumInternCase.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		28F8596125864A08000819F7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		28F85969258651CD000819F7 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		28F8596D25865267000819F7 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		28F8597F2586547E000819F7 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
 		475D5CBC479BCDF446EAC8A0 /* Pods-ScoutiumInternCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScoutiumInternCase.debug.xcconfig"; path = "Target Support Files/Pods-ScoutiumInternCase/Pods-ScoutiumInternCase.debug.xcconfig"; sourceTree = "<group>"; };
 		CB2C5BB9C304C25DEC4BCDF0 /* Pods_ScoutiumInternCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScoutiumInternCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC5BCB4F0D553A710CB29E4F /* Pods-ScoutiumInternCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScoutiumInternCase.release.xcconfig"; path = "Target Support Files/Pods-ScoutiumInternCase/Pods-ScoutiumInternCase.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		28F859672586518B000819F7 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				28F8597F2586547E000819F7 /* DataParser.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			files = (
 				28F8596E25865267000819F7 /* DataModel.swift in Sources */,
 				28F859382586401A000819F7 /* ViewController.swift in Sources */,
+				28F859802586547E000819F7 /* DataParser.swift in Sources */,
 				28F8594A25864334000819F7 /* NetworkMonitor.swift in Sources */,
 				28F859342586401A000819F7 /* AppDelegate.swift in Sources */,
 				28F8596A258651CD000819F7 /* TableViewCell.swift in Sources */,
