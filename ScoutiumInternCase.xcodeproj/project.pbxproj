@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		28F8593B2586401A000819F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F859392586401A000819F7 /* Main.storyboard */; };
 		28F8593D2586401B000819F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F8593C2586401B000819F7 /* Assets.xcassets */; };
 		28F8594A25864334000819F7 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8594925864334000819F7 /* NetworkMonitor.swift */; };
+		28F8595B25864783000819F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28F8595A25864783000819F7 /* GoogleService-Info.plist */; };
+		990276220F6306C0136A016B /* Pods_ScoutiumInternCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2C5BB9C304C25DEC4BCDF0 /* Pods_ScoutiumInternCase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		28F8593C2586401B000819F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28F859412586401B000819F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F8594925864334000819F7 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		28F8595A25864783000819F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		475D5CBC479BCDF446EAC8A0 /* Pods-ScoutiumInternCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScoutiumInternCase.debug.xcconfig"; path = "Target Support Files/Pods-ScoutiumInternCase/Pods-ScoutiumInternCase.debug.xcconfig"; sourceTree = "<group>"; };
+		CB2C5BB9C304C25DEC4BCDF0 /* Pods_ScoutiumInternCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScoutiumInternCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5BCB4F0D553A710CB29E4F /* Pods-ScoutiumInternCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScoutiumInternCase.release.xcconfig"; path = "Target Support Files/Pods-ScoutiumInternCase/Pods-ScoutiumInternCase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				990276220F6306C0136A016B /* Pods_ScoutiumInternCase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				28F859322586401A000819F7 /* ScoutiumInternCase */,
 				28F859312586401A000819F7 /* Products */,
+				A4242B082BF32E4FC2A3C4F7 /* Pods */,
+				7257CAFD5110DF27E70873D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +72,26 @@
 				28F859392586401A000819F7 /* Main.storyboard */,
 				28F8593C2586401B000819F7 /* Assets.xcassets */,
 				28F859412586401B000819F7 /* Info.plist */,
+				28F8595A25864783000819F7 /* GoogleService-Info.plist */,
 			);
 			path = ScoutiumInternCase;
+			sourceTree = "<group>";
+		};
+		7257CAFD5110DF27E70873D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB2C5BB9C304C25DEC4BCDF0 /* Pods_ScoutiumInternCase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4242B082BF32E4FC2A3C4F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				475D5CBC479BCDF446EAC8A0 /* Pods-ScoutiumInternCase.debug.xcconfig */,
+				FC5BCB4F0D553A710CB29E4F /* Pods-ScoutiumInternCase.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28F859442586401B000819F7 /* Build configuration list for PBXNativeTarget "ScoutiumInternCase" */;
 			buildPhases = (
+				F02562227C553573C872DD63 /* [CP] Check Pods Manifest.lock */,
 				28F8592C2586401A000819F7 /* Sources */,
 				28F8592D2586401A000819F7 /* Frameworks */,
 				28F8592E2586401A000819F7 /* Resources */,
+				DD445AAD1E7EF1F97E33920C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,10 +155,53 @@
 			files = (
 				28F8593D2586401B000819F7 /* Assets.xcassets in Resources */,
 				28F8593B2586401A000819F7 /* Main.storyboard in Resources */,
+				28F8595B25864783000819F7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD445AAD1E7EF1F97E33920C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScoutiumInternCase/Pods-ScoutiumInternCase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScoutiumInternCase/Pods-ScoutiumInternCase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScoutiumInternCase/Pods-ScoutiumInternCase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F02562227C553573C872DD63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScoutiumInternCase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28F8592C2586401A000819F7 /* Sources */ = {
@@ -275,6 +347,7 @@
 		};
 		28F859452586401B000819F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475D5CBC479BCDF446EAC8A0 /* Pods-ScoutiumInternCase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,6 +367,7 @@
 		};
 		28F859462586401B000819F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC5BCB4F0D553A710CB29E4F /* Pods-ScoutiumInternCase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
